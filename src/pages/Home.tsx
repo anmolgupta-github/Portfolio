@@ -54,7 +54,7 @@ const Home = () => {
               </Link>
               <a
                 href="/resume.pdf"
-                download
+                download="Anmol-Resume.pdf" 
                 className="bg-white/10 hover:bg-white/20 text-white px-8 py-3 rounded-full font-medium transition-all duration-200 hover:scale-105 backdrop-blur-sm border border-white/20 flex items-center justify-center"
               >
                 <Download size={20} className="mr-2" />
